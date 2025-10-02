@@ -6,7 +6,7 @@ CoreGui:SetCore("SendNotification", {
 })
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
-  Title = "Maded By:ZCheats",
+  Title = "Maded By:",
   Text = "ZCheats Team",
   Icon = "nil",
   Duration = 8,
@@ -34,7 +34,7 @@ game:GetService("RunService").Heartbeat:connect(function(step)if flying and c an
 local Library    = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
 local Window     = Library.CreateLib("ZCheats | Arsenal | v0.1", "BlueTheme")
 
-local Welcome     = Window:NewTab("Main")
+local Welcome     = Window:NewTab("Main💫")
 local MainSection = Welcome:NewSection("Welcome To ZCheats | " .. game.Players.LocalPlayer.Name)
 local HitboxSection = Welcome:NewSection("> Hitbox Settings <")
 --[[
@@ -459,7 +459,7 @@ end)
 
 
 
-local Gun = Window:NewTab("Gun Modded")
+local Gun = Window:NewTab("Gun Mods🔫")
 local GunmodsSection = Gun:NewSection("> Overpower Gun <")
 
 GunmodsSection:NewToggle("Infinite Ammo v1", "?", function(v)
@@ -601,7 +601,7 @@ GunmodsSection:NewToggle("No Recoil", "?", function(state)
 end)
 
 
-local Player = Window:NewTab("Player")
+local Player = Window:NewTab("Player🎈")
 local PlayerSection = Player:NewSection("> Fly Hacks <")
 PlayerSection:NewToggle("Fly", "Allows the player to fly", function(state)
   if state then
@@ -915,7 +915,7 @@ PlayerSection:NewToggle("Toggle Xray", "WallXray lol", function(enabled) -- xray
 end)
 
 
-local Skins = Window:NewTab("Color Skins")
+local Skins = Window:NewTab("Coloured Skins🎨")
 local Random = Skins:NewSection("> Arm Skins <")
 
 local function ak(al)
@@ -1055,7 +1055,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
 end)
 
 
-local Extra = Window:NewTab("Extra")
+local Extra = Window:NewTab("Extra🪄")
 local Extra = Extra:NewSection("Random")
 
 local function enableParticles()
@@ -1253,7 +1253,7 @@ Extra:NewToggle("IsAdmin", "?",function(x)
 end)
 
 
-local Visual = Window:NewTab("Visuals")
+local Visual = Window:NewTab("Visuals🌧️")
 local C = Visual:NewSection("> ESP V1 <")
 -- kiriot22s esp
 local aj = loadstring(game:HttpGet("https://rawscript.vercel.app/api/raw/esp_1"))()
@@ -1354,7 +1354,7 @@ espSection:NewToggle('HP Jug ESP', '?', function(enabled)
 end)
 
 --// Setting \\--
-local Setting = Window:NewTab("Setting")
+local Setting = Window:NewTab("Setting🏝️")
 local Section = Setting:NewSection("> Performance <")
 local originalMaterials = {}
 local originalDecalsTextures = {}
